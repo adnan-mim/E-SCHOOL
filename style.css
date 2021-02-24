@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+}
+#nav-bar{
+    position: sticky;
+    top:0;
+    z-index: 10;
+}
+.navbar{
+    background-color: rgb(207, 235, 232);
+    padding: 0 !important;
+}
+.navbar-brand img{
+    height: 40px;
+    padding-left: 40px;
+}
+.navbar-nav li {
+    padding: 0 1rem;
+}
+.navbar-nav li a{
+    color: #000000 !important;
+    font-weight: 600;
+    float: right;
+    text-align: center;
+}
+.btn{
+    background-image: linear-gradient(to left,#37d28d,#21b573);
+    padding: 6px 20px;
+    border-radius: 20px;
+    color:#ffffff;
+    border: none;
+}
+.btn a{
+    color: #ffffff;
+    text-decoration: none;
+}
+.btn:hover{
+    background: #faaf3a;
+    transition: 2s ease;
+    color: black;
+}
+.fas fa-bars{
+    color: #000000;
+    font-size: 3rem !important;
+}
+.navbar-toggler{
+    outline: none !important;
+}
+/* bannar section */
+#Books{
+    background-color: rgb(207, 235, 232);
+    color: #000000;
+    padding-top: 5%;
+}
+.bannar-head{
+    margin-top: 30px;
+    color: #fd511a;
+}
+.learn-title{
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.learn-title span{
+    color:#21b573
+}
+/* services section */
+.service{
+    background-color: #f8fffb;
+    padding: 20px;
+    border: none;
+    transition: .3s ease;
+}
+.service:hover{
+    transform: scale(1.1);
+   background-color: #ffffff;
+   border-radius: 10px;
+   box-shadow: 5px 5px 10px lightgray;
+}
+.service-img{
+    width: 25%;
+}
+.card-title{
+    color: #413960;
+    font-weight: 600;
+}
+.card-text{
+    color: #585859;
+}
+/* coursr section */
+.card{
+    border:none;
+    box-shadow: 5px 5px 10px lightgray;
+    text-align: center;
+    border-radius: 10px;
+    padding: 12px;
+}
+.card-footer{
+    background-color: white;
+    border-top: none;
+}
+.course-head{
+    text-align: center;
+    color: #413960;
+    font-weight: 700;
+    padding: 50px 0;
+}
+.course-title{
+    text-align: left;
+}
+/* testimonial section */
+#others{
+    padding: 20px;
+    margin-bottom: 100px;
+}
+.test-head{
+    text-align: center;
+    color: #000000;
+    font-weight: 700;
+    padding: 50px 0; 
+}
+.test-img{
+    width: 35%;
+}
+/* footer section */
+#footer{
+    background-color: #282531;
+    padding: 20px;
+    color: #ffffff;
+}
+.footpara p{
+    font-size: 13px;
+    margin-bottom: 0;
+}
+.copyright{
+    margin-bottom: 0;
+    padding-bottom:20px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
